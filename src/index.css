@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+#root {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.nav-items.active,
+.nav-items:hover {
+  background: #0f172b;
+  border-radius: 10px;
+  color: white;
+}
+
+.link.active,
+.link:hover {
+  border-bottom: 2px solid #4f39f6;
+  color: #4f39f6;
+}
